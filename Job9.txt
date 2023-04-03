@@ -1,0 +1,107 @@
+void setup(){
+pinMode(0,OUTPUT); //règle la borne numérique numéro 0 de la carte Arduino en mode sortie
+pinMode(1,OUTPUT); //règle la borne numérique numéro 1 de la carte Arduino en mode sortie
+pinMode(2,OUTPUT); //règle la borne numérique numéro 2 de la carte Arduino en mode sortie
+pinMode(3,OUTPUT); //règle la borne numérique numéro 3 de la carte Arduino en mode sortie
+pinMode(4,OUTPUT); //règle la borne numérique numéro 4 de la carte Arduino en mode sortie
+pinMode(5,OUTPUT); //règle la borne numérique numéro 5 de la carte Arduino en mode sortie
+pinMode(6,OUTPUT); //règle la borne numérique numéro 6 de la carte Arduino en mode sortie  
+pinMode(7,OUTPUT); //règle la borne numérique numéro 7 de la carte Arduino en mode sortie
+}
+ 
+void loop(){
+  //Première DEL
+digitalWrite(0,HIGH);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Deuxième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,HIGH);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Troisième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,HIGH);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Quatrième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,HIGH);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Cinquième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,HIGH);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+   //Sixième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,HIGH);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Septième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,HIGH);
+digitalWrite(7,LOW);
+delay(1000);
+  
+  
+  //Huitième DEL
+digitalWrite(0,LOW);
+digitalWrite(1,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,HIGH);
+delay(1000);
+}

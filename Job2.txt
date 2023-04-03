@@ -1,0 +1,8 @@
+Loi d'Ohm:
+U = R x I
+
+Calcule de la resistance:
+R = U(Volts) / I(milliAmpères)
+
+R = (5 - 2)/ 0.01
+R = 300 Ohms
